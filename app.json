@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "planty",
+    "slug": "planty",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/plant.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/plant.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/plant.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/plant.png"
+    },
+    "plugins": ["expo-font"]
+  }
+}
