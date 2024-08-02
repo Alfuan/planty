@@ -4,7 +4,12 @@ import { View, Text, Image, StyleSheet } from "react-native";
 export default function PlantyChatItem({ children }: PropsWithChildren) {
   return (
     <View style={styles.container}>
-      <Image source={require("./planty-icon.svg")} />
+      <Image
+        style={styles.image}
+        source={require("./planty.png")}
+        width={40}
+        height={40}
+      />
       <Text style={styles.text}>{children}</Text>
     </View>
   );

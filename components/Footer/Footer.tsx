@@ -8,14 +8,14 @@ export default function Footer() {
         variant="primary"
         onPress={() => console.log("ABRIR FOTOS")}
       >
-        <Image source={require("./icons/camera.svg")} />
+        <Image style={styles.camera} source={require("./icons/camera.png")} />
         <Text style={styles.text}>Toma una nueva foto</Text>
       </FooterButton>
       <FooterButton
         variant="secondary"
         onPress={() => console.log("ABRIR FOTOS")}
       >
-        <Image source={require("./icons/gallery.svg")} />
+        <Image style={styles.gallery} source={require("./icons/gallery.png")} />
         <Text style={styles.text}>Carga desde tu galería</Text>
       </FooterButton>
       <Text style={[styles.version]}>Planty 1.0.0</Text>
@@ -48,5 +48,14 @@ const styles = StyleSheet.create({
     lineHeight: 20,
     color: "#adadad",
     textAlign: "center",
+  },
+
+  camera: {
+    width: 45,
+    height: 28.5,
+  },
+  gallery: {
+    width: 45,
+    height: 45,
   },
 });
